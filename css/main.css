@@ -1,0 +1,15 @@
+.wrapper::before {
+  width: 70vw;
+  height: 70vw;
+  bottom: 40%;
+  right: 50%;
+  opacity: 1;
+}
+
+.wrapper::after {
+  width: 60vw;
+  height: 60vw;
+  top: 52.5%;
+  left: 50%;
+  opacity: 1;
+}
