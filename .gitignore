@@ -16,7 +16,7 @@
 
 .prettierignore
 
-/.vscode
+.vscode
 
 README-template.md
 
@@ -24,4 +24,4 @@ README.md
 
 style-guide.md
 
-/design
+design
