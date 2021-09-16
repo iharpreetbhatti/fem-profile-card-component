@@ -16,6 +16,7 @@
 
 .prettierignore
 
+# IGNORE given FEM files and folders for GIT
 .vscode/
 
 README-template.md
