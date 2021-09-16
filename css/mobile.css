@@ -1,4 +1,6 @@
-*, *::after, *::before {
+*,
+*::after,
+*::before {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -16,7 +18,7 @@ html {
 }
 
 body {
-  font-family: 'Kumbh Sans', sans-serif;
+  font-family: "Kumbh Sans", sans-serif;
   font-size: 1.6rem;
   color: var(--grayish-blue);
 }
@@ -35,29 +37,28 @@ body {
 }
 
 .wrapper::before {
-  content: '';
+  content: "";
   position: absolute;
   width: 180vw;
   height: 180vw;
   bottom: 57.5%;
   right: 45%;
-  background: url('../images/bg-pattern-top.svg') no-repeat center/cover;
+  background: url("../images/bg-pattern-top.svg") no-repeat center/cover;
   opacity: 0.6;
 }
 
 .wrapper::after {
-  content: '';
+  content: "";
   position: absolute;
   width: 170vw;
   height: 170vw;
   top: 52.5%;
-  left: 42.5%;
-  background: url('../images/bg-pattern-bottom.svg') no-repeat center/cover;
+  left: 45%;
+  background: url("../images/bg-pattern-bottom.svg") no-repeat center/cover;
   opacity: 0.8;
 }
 
 .card {
-  
   width: 325px;
   height: 375px;
   background-color: #fff;
@@ -71,7 +72,7 @@ body {
 .card-header {
   width: 100%;
   height: 140px;
-  background: url('../images/bg-pattern-card.svg') no-repeat center center/cover;
+  background: url("../images/bg-pattern-card.svg") no-repeat center center/cover;
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
 }
@@ -98,7 +99,7 @@ body {
   margin: 10px 2.5px;
 }
 
-.card-info>p:last-child{
+.card-info > p:last-child {
   display: block;
   font-size: 1.2rem;
 }
@@ -114,13 +115,13 @@ body {
 
 .card-stats p {
   flex: 1;
-  font-size: .9rem;
+  font-size: 0.9rem;
   letter-spacing: 1.5px;
 }
 
-.card-stats p>span {
+.card-stats p > span {
   display: block;
-  padding-bottom: .5rem;
+  padding-bottom: 0.5rem;
   letter-spacing: normal;
 }
 

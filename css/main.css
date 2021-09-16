@@ -1,15 +1,26 @@
 .wrapper::before {
   width: 70vw;
   height: 70vw;
-  bottom: 40%;
-  right: 50%;
+  bottom: 30%;
+  right: 52.5%;
   opacity: 1;
 }
 
 .wrapper::after {
-  width: 60vw;
-  height: 60vw;
+  width: 70vw;
+  height: 70vw;
   top: 52.5%;
-  left: 50%;
+  left: 47.5%;
   opacity: 1;
+}
+
+.card {
+  width: 350px;
+  height: 375px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  z-index: 2;
+  border-radius: 15px;
+  box-shadow: 0 20px 50px -20px rgba(0, 0, 0, 0.3);
 }
